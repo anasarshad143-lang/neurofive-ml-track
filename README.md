@@ -41,3 +41,23 @@ neurofive-ml-track/
 **Anas Bisal**
 
 Machine Learning Intern at Neurofive Solutions
+
+
+## Week 3 – Titanic Survival Prediction
+
+### Objective
+
+Build a machine learning classification model to predict passenger survival using Logistic Regression.
+
+### Steps Performed
+
+- Selected relevant features
+- Encoded categorical variables using `pd.get_dummies()`
+- Split the dataset into training and testing sets
+- Trained a Logistic Regression model
+- Evaluated the model using accuracy score
+- Generated and explained the confusion matrix
+
+### Result
+
+Model Accuracy: **(81.)**
