@@ -61,3 +61,35 @@ Build a machine learning classification model to predict passenger survival usin
 ### Result
 
 Model Accuracy: **(81.)**
+
+
+# Week 2 Task 2 House Price Prediction using Linear Regression
+
+## Objective
+
+Predict house prices using Linear Regression.
+
+## Dataset
+
+California Housing Dataset from scikit-learn.
+
+## Features Used
+
+- Median Income
+- House Age
+- Average Rooms
+- Latitude
+- Longitude
+
+## Model
+
+Linear Regression
+
+## Evaluation Metrics
+
+- RMSE
+- R² Score
+
+## Visualization
+
+Scatter plot comparing actual vs predicted prices.
