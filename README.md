@@ -93,3 +93,23 @@ Linear Regression
 ## Visualization
 
 Scatter plot comparing actual vs predicted prices.
+
+## Week 3_Task 1 Model Evaluation
+
+Original Model Accuracy: 81%
+
+Metrics Used:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+## Hyperparameter Tuning
+
+Method: GridSearchCV
+
+Parameters Tuned:
+- C
+- solver
+
+The tuned Logistic Regression model was compared with the original model using Accuracy, Precision, Recall, and F1-score.
