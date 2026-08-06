@@ -209,3 +209,40 @@ The machine learning models help identify customers who are most likely to leave
 ## Conclusion
 
 This project demonstrates an end-to-end machine learning workflow for solving a real-world business problem. It covers data preprocessing, exploratory analysis, model building, evaluation, and interpretation of results. Comparing Logistic Regression and Decision Tree models provides valuable insight into selecting suitable algorithms for customer churn prediction.
+
+
+#Week4_Task1:
+# ML Pipeline with Feature Engineering
+
+## Overview
+
+This project demonstrates how to build a reusable Machine Learning pipeline using **scikit-learn Pipeline** and **ColumnTransformer**. The pipeline performs data preprocessing and model training in a single workflow, reducing data leakage and improving code maintainability.
+
+## Dataset
+
+* Titanic Dataset
+
+## Features
+
+* Applied **StandardScaler** to numerical features.
+* Applied **OneHotEncoder** to categorical features.
+* Built a complete preprocessing and modeling pipeline using **Pipeline**.
+* Created two engineered features:
+
+  * **FamilySize**
+  * **IsAlone**
+* Trained a **Logistic Regression** model.
+* Evaluated model performance and compared it with the manual approach.
+* Saved the trained pipeline using **joblib**.
+
+## Technologies Used
+
+* Python
+* Pandas
+* Scikit-learn
+* Joblib
+* Google Colab
+
+## Conclusion
+
+This project demonstrates an industry-standard machine learning workflow by combining preprocessing, feature engineering, and model training into a single reusable pipeline, making the model easier to deploy and maintain.
