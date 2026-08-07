@@ -246,3 +246,44 @@ This project demonstrates how to build a reusable Machine Learning pipeline usin
 ## Conclusion
 
 This project demonstrates an industry-standard machine learning workflow by combining preprocessing, feature engineering, and model training into a single reusable pipeline, making the model easier to deploy and maintain.
+
+
+#Week4_task2
+| Model | Accuracy |
+|---------|---------:|
+| Logistic Regression | 81% |
+| Decision Tree | 78% |
+| Random Forest | 84% |
+| XGBoost | 85% |
+
+# Ensemble Learning: Random Forest vs XGBoost
+
+## Overview
+
+This project compares ensemble learning models (Random Forest and XGBoost) with previously trained single models on the Customer Churn dataset. Model performance was evaluated using accuracy, and feature importance was analyzed to identify the factors most influencing customer churn.
+
+## Models Compared
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- XGBoost
+
+## Key Tasks
+
+- Trained Random Forest and XGBoost classifiers
+- Compared model performance
+- Visualized feature importances
+- Analyzed differences between ensemble methods
+
+## Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- XGBoost
+- Matplotlib
+
+## Conclusion
+
+Ensemble models generally achieved better predictive performance than single models. Feature importance analysis also provided valuable insights into the factors driving customer churn.
